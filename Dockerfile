@@ -2,6 +2,7 @@ FROM alpine:edge
 MAINTAINER mkoukal
 ENV PACKAGES="\
   outils-cksum \
+  curl \
   bash"
 
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" > /etc/apk/repositories \
